@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoveCalculator.FlamesResult">
+    <ContentView.Content>
+        <StackLayout Orientation="Vertical" Padding="5,5,5,5" BackgroundColor="#FFDDDD">
+            <Label x:Name="lblRelationship" Text="RELATIONSHIP" TextColor="#ADB2BB" FontSize="10" HorizontalOptions="Center"/>
+            <Label x:Name="txtRelationship" Text="" TextColor="#B92626" FontSize="10" HorizontalOptions="Center"/>
+            <Label x:Name="lblMeaning" Text="MEANING" TextColor="#ADB2BB" FontSize="10" HorizontalOptions="Center"/>
+            <Label x:Name="txtMeaning" Text="" TextColor="#B92626" FontSize="10" HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:LoveCalculator"             
+             x:Class="LoveCalculator.MainPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="20,20,20,20" BackgroundColor="#FFFFFF">
+            <Image Source="heart.png" HeightRequest="75" WidthRequest="75"/>
+            <Label Text="LOVE CALCULATOR" TextColor="#B92626" HorizontalOptions="Center"/>
+            <Entry x:Name="fName" PlaceholderColor="#ADB2BB" TextColor="#000000" FontSize="9" VerticalOptions="Start"/>
+            <Entry x:Name="pName" PlaceholderColor="#ADB2BB" TextColor="#000000" FontSize="9" VerticalOptions="Start"/>
+            <Button x:Name="checkFlames" Text="Check Flames" FontSize="10" TextColor="#FFFFFF" BackgroundColor="#B92626" HeightRequest="30.5" VerticalOptions="Start" Clicked="OnButtonClicked"/>
+            <local:FlamesResult x:Name="flamesResultView" IsVisible="False"/>
+            <Label Text="Developed by Siena Mamaril" TextColor="#000000" FontSize="10" HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
