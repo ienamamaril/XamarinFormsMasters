@@ -33,41 +33,25 @@
                     <ColumnDefinition />
                     <ColumnDefinition />
                 </Grid.ColumnDefinitions>
-
-                <Label Text="Bill" FontSize="Small" Grid.Row="0" Grid.Column="0" VerticalTextAlignment="Center" />
+                <Label Text="Bill.........................$" FontSize="Small" Grid.Row="0" Grid.Column="0" VerticalTextAlignment="Center" />
+                <!--TODO: add OnTextChanged event for bill amount entry-->
                 <Entry x:Name="billEntry" Placeholder="Enter Amount" FontSize="13" Grid.Row="0" Grid.Column="1" 
                        HorizontalTextAlignment="Start" Keyboard="Numeric"/>
-
-                <Label Text="Tip" FontSize="Small" Grid.Row="1" Grid.Column="0" VerticalTextAlignment="Center" />
-                <Label x:Name="tipAmount" Text=" $0.00" FontSize="Small" Grid.Row="1" Grid.Column="1" 
-                       VerticalTextAlignment="Center" PropertyChanging="OnTipValueChanged"/>
-
-                <Label Text="Total" FontSize="Small" Grid.Row="2" Grid.Column="0" VerticalTextAlignment="Center" />
-                <Label x:Name="totalAmount" Text=" $0.00" FontSize="Small" Grid.Row="2" Grid.Column="1" 
-                       VerticalTextAlignment="Center" />
-
+                
+                <Label Text="Tip.........................$" FontSize="Small" Grid.Row="1" Grid.Column="0" VerticalTextAlignment="Center" />
+                <Label x:Name="tipAmount" Text="" FontSize="Small" Grid.Row="1" Grid.Column="1" VerticalTextAlignment="Center"/>
+                <Label Text="Total......................$" FontSize="Small" Grid.Row="2" Grid.Column="0" VerticalTextAlignment="Center" />
+                <Label x:Name="totalAmount" Text="" FontSize="Small" Grid.Row="2" Grid.Column="1" VerticalTextAlignment="Center" />
                 <Label Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2"/>
-
-                <Label Text="Tip Percentage" FontSize="Small" Grid.Row="4" Grid.Column="0"
-                       VerticalOptions="EndAndExpand" VerticalTextAlignment="End"/>
-                <Label x:Name="tipPercentage" Text="15%" FontSize="Micro" Grid.Row="4" Grid.Column="1" 
-                       VerticalOptions="EndAndExpand" VerticalTextAlignment="End" HorizontalTextAlignment="End"/>
-
+                <Label Text="Tip Percentage" FontSize="Small" Grid.Row="4" Grid.Column="0" VerticalOptions="EndAndExpand" VerticalTextAlignment="End"/>
+                <Label x:Name="tipPercentage" Text="" FontSize="Micro" Grid.Row="4" Grid.Column="1" VerticalOptions="EndAndExpand" VerticalTextAlignment="End" HorizontalTextAlignment="End"/>
                 <Slider x:Name="tipSlider" Minimum="0" Maximum="100" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" 
                         ValueChanged="OnSliderValueChanged" Value="15"/>
-
-                <Button x:Name="btnFifteen" Text="15%" FontSize="Small" Grid.Row="6" Grid.Column="0" 
-                         Clicked="OnBtnFifteenClicked"/>
-                <Button x:Name="btnTwenty" Text="20%" FontSize="Small" Grid.Row="6" Grid.Column="1" 
-                        Clicked="OnBtnTwentyClicked"/>
-
-                <Button x:Name="btnRoundDown" Text="ROUND DOWN" FontSize="Small" Grid.Row="7" Grid.Column="0" 
-                        Clicked="OnBtnRoundDownClicked"/>
-                <Button x:Name="btnRoundUp" Text="ROUND UP" FontSize="Small" Grid.Row="7" Grid.Column="1" 
-                        Clicked="OnBtnRoundUpClicked"/>
-
+                <Button x:Name="btnFifteen" Text="15%" FontSize="Small" Grid.Row="6" Grid.Column="0" Clicked="OnBtnFifteenClicked"/>
+                <Button x:Name="btnTwenty" Text="20%" FontSize="Small" Grid.Row="6" Grid.Column="1" Clicked="OnBtnTwentyClicked"/>
+                <Button x:Name="btnRoundDown" Text="ROUND DOWN" FontSize="Small" Grid.Row="7" Grid.Column="0" Clicked="OnBtnRoundDownClicked"/>
+                <Button x:Name="btnRoundUp" Text="ROUND UP" FontSize="Small" Grid.Row="7" Grid.Column="1" Clicked="OnBtnRoundUpClicked"/>
                 <Label Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="2"/>
-
                 <Label Text="Developed by Siena Mamaril" TextColor="#000000" FontSize="10" HorizontalOptions="Center" Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="2"/>
             </Grid>
         </StackLayout>

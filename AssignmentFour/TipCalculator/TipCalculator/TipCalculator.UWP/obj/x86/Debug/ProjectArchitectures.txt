@@ -1,0 +1,1 @@
+C:\Users\sienam\XamarinForms\AssignmentFour\TipCalculator\TipCalculator\TipCalculator.UWP\TipCalculator.UWP.csproj;x86
