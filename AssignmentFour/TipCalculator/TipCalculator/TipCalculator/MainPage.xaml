@@ -33,14 +33,11 @@
                     <ColumnDefinition />
                     <ColumnDefinition />
                 </Grid.ColumnDefinitions>
-                <Label Text="Bill.........................$" FontSize="Small" Grid.Row="0" Grid.Column="0" VerticalTextAlignment="Center" />
-                <!--TODO: add OnTextChanged event for bill amount entry-->
-                <Entry x:Name="billEntry" Placeholder="Enter Amount" FontSize="13" Grid.Row="0" Grid.Column="1" 
-                       HorizontalTextAlignment="Start" Keyboard="Numeric"/>
-                
-                <Label Text="Tip.........................$" FontSize="Small" Grid.Row="1" Grid.Column="0" VerticalTextAlignment="Center" />
+                <Label Text="Bill                         $" FontSize="Small" Grid.Row="0" Grid.Column="0" VerticalTextAlignment="Center" />
+                <Entry x:Name="billEntry" Placeholder="Enter Amount" FontSize="13" Grid.Row="0" Grid.Column="1" HorizontalTextAlignment="Start" Keyboard="Numeric" TextChanged="billEntry_TextChanged"/>
+                <Label Text="Tip                         $" FontSize="Small" Grid.Row="1" Grid.Column="0" VerticalTextAlignment="Center" />
                 <Label x:Name="tipAmount" Text="" FontSize="Small" Grid.Row="1" Grid.Column="1" VerticalTextAlignment="Center"/>
-                <Label Text="Total......................$" FontSize="Small" Grid.Row="2" Grid.Column="0" VerticalTextAlignment="Center" />
+                <Label Text="Total                      $" FontSize="Small" Grid.Row="2" Grid.Column="0" VerticalTextAlignment="Center" />
                 <Label x:Name="totalAmount" Text="" FontSize="Small" Grid.Row="2" Grid.Column="1" VerticalTextAlignment="Center" />
                 <Label Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2"/>
                 <Label Text="Tip Percentage" FontSize="Small" Grid.Row="4" Grid.Column="0" VerticalOptions="EndAndExpand" VerticalTextAlignment="End"/>
@@ -56,5 +53,4 @@
             </Grid>
         </StackLayout>
     </ContentPage.Content>
-
 </ContentPage>

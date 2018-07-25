@@ -1,24 +1,37 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace TipCalculator
 {
     public partial class MainPage : ContentPage
     {
+        public double tmpTipPercentage;
+
         public MainPage()
         {
-            InitializeComponent();
-            billEntry.Text = "101"; //TINAMAD NA KASI AKO MAG INPUT =)
+            InitializeComponent();            
         }
-
+        private void billEntry_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (!string.IsNullOrEmpty(billEntry.Text) && !string.IsNullOrEmpty(billEntry.Text))
+            {
+                billEntry.Text = e.NewTextValue;
+                double billAmountValue = Convert.ToDouble(billEntry.Text);
+                tipAmount.Text = String.Format(" {0:F2}", billAmountValue * (tmpTipPercentage / 100));
+                double totalAmountValue = Convert.ToDouble(billAmountValue + (billAmountValue * (tmpTipPercentage) / 100));
+                totalAmount.Text = String.Format(" {0:F2}", totalAmountValue);
+            }
+            else
+            {
+                billEntry.Text = null;
+                tipAmount.Text = null;
+                totalAmount.Text = null;
+            }
+        }
         void OnSliderValueChanged(object sender, ValueChangedEventArgs e)
         {
             tipPercentage.Text = String.Format("{0:F1}%", e.NewValue);
+            tmpTipPercentage = Convert.ToDouble(String.Format("{0:F1}", e.NewValue));
 
             if (!string.IsNullOrEmpty(billEntry.Text) && !string.IsNullOrEmpty(billEntry.Text))
             {
@@ -28,7 +41,6 @@ namespace TipCalculator
                 totalAmount.Text = String.Format(" {0:F2}", totalAmountValue);
             }                
         }
-
         void OnBtnFifteenClicked(object sender, EventArgs args)
         {
             if (!string.IsNullOrEmpty(billEntry.Text) && !string.IsNullOrEmpty(billEntry.Text))
@@ -44,7 +56,6 @@ namespace TipCalculator
                 App.Current.MainPage.DisplayAlert("WARNING! ", "Bill amount is required.", "OK");
             }
         }
-
         void OnBtnTwentyClicked(object sender, EventArgs args)
         {
             if (!string.IsNullOrEmpty(billEntry.Text) && !string.IsNullOrEmpty(billEntry.Text))
@@ -60,7 +71,6 @@ namespace TipCalculator
                 App.Current.MainPage.DisplayAlert("WARNING! ", "Bill amount is required.", "OK");
             }
         }
-
         void OnBtnRoundDownClicked(object sender, EventArgs args)
         {
             if (!string.IsNullOrEmpty(billEntry.Text) && !string.IsNullOrEmpty(billEntry.Text))
@@ -75,7 +85,6 @@ namespace TipCalculator
                 App.Current.MainPage.DisplayAlert("WARNING! ", "Bill amount is required.", "OK");
             }
         }
-
         void OnBtnRoundUpClicked(object sender, EventArgs args)
         {
             if (!string.IsNullOrEmpty(billEntry.Text) && !string.IsNullOrEmpty(billEntry.Text))
