@@ -100,7 +100,6 @@ C:\Users\sienam\XamarinForms\AssignmentFour\TipCalculator\TipCalculator\TipCalcu
 C:\Users\sienam\XamarinForms\AssignmentFour\TipCalculator\TipCalculator\TipCalculator.Android\obj\Debug\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\sienam\XamarinForms\AssignmentFour\TipCalculator\TipCalculator\TipCalculator.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.pdb
 C:\Users\sienam\XamarinForms\AssignmentFour\TipCalculator\TipCalculator\TipCalculator.Android\bin\Debug\TipCalculator.Android.dll
-C:\Users\sienam\XamarinForms\AssignmentFour\TipCalculator\TipCalculator\TipCalculator.Android\obj\Debug\linksrc\TipCalculator.pdb
 C:\Users\sienam\XamarinForms\AssignmentFour\TipCalculator\TipCalculator\TipCalculator.Android\obj\Debug\linksrc\TipCalculator.Android.dll.mdb
 C:\Users\sienam\XamarinForms\AssignmentFour\TipCalculator\TipCalculator\TipCalculator.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
 C:\Users\sienam\XamarinForms\AssignmentFour\TipCalculator\TipCalculator\TipCalculator.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
