@@ -1,0 +1,1 @@
+C:\Users\sienam\XamarinForms\AssignmentFive\BasicCalculator\BasicCalculator\BasicCalculator.UWP\BasicCalculator.UWP.csproj;x86

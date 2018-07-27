@@ -1,0 +1,12 @@
+C:\Users\sienam\XamarinForms\AssignmentFive\BasicCalculator\BasicCalculator\BasicCalculator\bin\Debug\netstandard2.0\BasicCalculator.deps.json
+C:\Users\sienam\XamarinForms\AssignmentFive\BasicCalculator\BasicCalculator\BasicCalculator\bin\Debug\netstandard2.0\BasicCalculator.dll
+C:\Users\sienam\XamarinForms\AssignmentFive\BasicCalculator\BasicCalculator\BasicCalculator\bin\Debug\netstandard2.0\BasicCalculator.pdb
+C:\Users\sienam\XamarinForms\AssignmentFive\BasicCalculator\BasicCalculator\BasicCalculator\obj\Debug\netstandard2.0\BasicCalculator.csprojAssemblyReference.cache
+C:\Users\sienam\XamarinForms\AssignmentFive\BasicCalculator\BasicCalculator\BasicCalculator\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\sienam\XamarinForms\AssignmentFive\BasicCalculator\BasicCalculator\BasicCalculator\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\sienam\XamarinForms\AssignmentFive\BasicCalculator\BasicCalculator\BasicCalculator\obj\Debug\netstandard2.0\BasicCalculator.csproj.CoreCompileInputs.cache
+C:\Users\sienam\XamarinForms\AssignmentFive\BasicCalculator\BasicCalculator\BasicCalculator\obj\Debug\netstandard2.0\BasicCalculator.AssemblyInfoInputs.cache
+C:\Users\sienam\XamarinForms\AssignmentFive\BasicCalculator\BasicCalculator\BasicCalculator\obj\Debug\netstandard2.0\BasicCalculator.AssemblyInfo.cs
+C:\Users\sienam\XamarinForms\AssignmentFive\BasicCalculator\BasicCalculator\BasicCalculator\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\sienam\XamarinForms\AssignmentFive\BasicCalculator\BasicCalculator\BasicCalculator\obj\Debug\netstandard2.0\BasicCalculator.dll
+C:\Users\sienam\XamarinForms\AssignmentFive\BasicCalculator\BasicCalculator\BasicCalculator\obj\Debug\netstandard2.0\BasicCalculator.pdb

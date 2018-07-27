@@ -3,12 +3,56 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:BasicCalculator"
              x:Class="BasicCalculator.MainPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button" x:Key="NumberButtons">
+                <Setter Property="BackgroundColor" Value="White"/>
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="FontSize" Value="Large"/>
+                <Setter Property="BorderRadius" Value="0"/>
 
-    <StackLayout>
-        <!-- Place new controls here -->
-    	<Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
-
+            </Style>
+            <Style TargetType="Button" x:Key="OperationButtons">
+                <Setter Property="BackgroundColor" Value="#FFA400"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontSize" Value="Large"/>
+                <Setter Property="BorderRadius" Value="0"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <Grid RowSpacing="1" ColumnSpacing="1" BackgroundColor="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Label x:Name="calulatedDisplay" Grid.ColumnSpan="4" BackgroundColor="Black" 
+               LineBreakMode="NoWrap" Text="0" TextColor="White" FontSize="48" FontAttributes="Bold"
+               HorizontalTextAlignment="End" VerticalTextAlignment="Center"/>
+        <Button Text="7" Grid.Row="1" Grid.Column="0" Style="{StaticResource NumberButtons}" Clicked="OnNumberButton" />
+        <Button Text="8" Grid.Row="1" Grid.Column="1" Style="{StaticResource NumberButtons}" Clicked="OnNumberButton" />
+        <Button Text="9" Grid.Row="1" Grid.Column="2" Style="{StaticResource NumberButtons}" Clicked="OnNumberButton" />
+        <Button Text="÷" Grid.Row="1" Grid.Column="3" Style="{StaticResource OperationButtons}" Clicked="OnOperatorButton" />
+        <Button Text="4" Grid.Row="2" Grid.Column="0" Style="{StaticResource NumberButtons}" Clicked="OnNumberButton" />
+        <Button Text="5" Grid.Row="2" Grid.Column="1" Style="{StaticResource NumberButtons}" Clicked="OnNumberButton" />
+        <Button Text="6" Grid.Row="2" Grid.Column="2" Style="{StaticResource NumberButtons}" Clicked="OnNumberButton" />
+        <Button Text="×" Grid.Row="2" Grid.Column="3" Style="{StaticResource OperationButtons}" Clicked="OnOperatorButton" />
+        <Button Text="1" Grid.Row="3" Grid.Column="0" Style="{StaticResource NumberButtons}" Clicked="OnNumberButton" />
+        <Button Text="2" Grid.Row="3" Grid.Column="1" Style="{StaticResource NumberButtons}" Clicked="OnNumberButton" />
+        <Button Text="3" Grid.Row="3" Grid.Column="2" Style="{StaticResource NumberButtons}" Clicked="OnNumberButton" />
+        <Button Text="-" Grid.Row="3" Grid.Column="3" Style="{StaticResource OperationButtons}" Clicked="OnOperatorButton" />
+        <Button Text="0" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3" Style="{StaticResource NumberButtons}" Clicked="OnNumberButton" />
+        <Button Text="+" Grid.Row="4" Grid.Column="3" Style="{StaticResource OperationButtons}" Clicked="OnOperatorButton" />
+        <Button Text="C" Grid.Row="5" Grid.Column="0" BackgroundColor="#808080" Style="{StaticResource OperationButtons}" Clicked="OnClearButton" />
+        <Button Text="=" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3" Style="{StaticResource OperationButtons}" Clicked="OnCalculateButton" />
+    </Grid>
 </ContentPage>
