@@ -1,0 +1,1 @@
+C:\Users\sienam\XamarinForms\AssignmentFivePart2\ScientistApp\ScientistApp\ScientistApp.UWP\ScientistApp.UWP.csproj;x86

@@ -1,0 +1,12 @@
+C:\Users\sienam\XamarinForms\AssignmentFivePart2\ScientistApp\ScientistApp\ScientistApp\bin\Debug\netstandard2.0\ScientistApp.deps.json
+C:\Users\sienam\XamarinForms\AssignmentFivePart2\ScientistApp\ScientistApp\ScientistApp\bin\Debug\netstandard2.0\ScientistApp.dll
+C:\Users\sienam\XamarinForms\AssignmentFivePart2\ScientistApp\ScientistApp\ScientistApp\bin\Debug\netstandard2.0\ScientistApp.pdb
+C:\Users\sienam\XamarinForms\AssignmentFivePart2\ScientistApp\ScientistApp\ScientistApp\obj\Debug\netstandard2.0\ScientistApp.csprojAssemblyReference.cache
+C:\Users\sienam\XamarinForms\AssignmentFivePart2\ScientistApp\ScientistApp\ScientistApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\sienam\XamarinForms\AssignmentFivePart2\ScientistApp\ScientistApp\ScientistApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\sienam\XamarinForms\AssignmentFivePart2\ScientistApp\ScientistApp\ScientistApp\obj\Debug\netstandard2.0\ScientistApp.csproj.CoreCompileInputs.cache
+C:\Users\sienam\XamarinForms\AssignmentFivePart2\ScientistApp\ScientistApp\ScientistApp\obj\Debug\netstandard2.0\ScientistApp.AssemblyInfoInputs.cache
+C:\Users\sienam\XamarinForms\AssignmentFivePart2\ScientistApp\ScientistApp\ScientistApp\obj\Debug\netstandard2.0\ScientistApp.AssemblyInfo.cs
+C:\Users\sienam\XamarinForms\AssignmentFivePart2\ScientistApp\ScientistApp\ScientistApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\sienam\XamarinForms\AssignmentFivePart2\ScientistApp\ScientistApp\ScientistApp\obj\Debug\netstandard2.0\ScientistApp.dll
+C:\Users\sienam\XamarinForms\AssignmentFivePart2\ScientistApp\ScientistApp\ScientistApp\obj\Debug\netstandard2.0\ScientistApp.pdb
