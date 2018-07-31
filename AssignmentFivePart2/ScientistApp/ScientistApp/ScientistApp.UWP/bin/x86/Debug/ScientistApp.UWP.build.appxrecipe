@@ -535,6 +535,9 @@
     <AppxPackagedFile Include="C:\Users\sienam\XamarinForms\AssignmentFivePart2\ScientistApp\ScientistApp\ScientistApp\bin\Debug\netstandard2.0\ScientistApp.dll">
       <PackagePath>ScientistApp.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sienam\XamarinForms\AssignmentFivePart2\ScientistApp\ScientistApp\ScientistApp.UWP\arrow.png">
+      <PackagePath>arrow.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sienam\XamarinForms\AssignmentFivePart2\ScientistApp\ScientistApp\ScientistApp.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>

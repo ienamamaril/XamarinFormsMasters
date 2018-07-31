@@ -4,11 +4,132 @@
              xmlns:local="clr-namespace:ScientistApp"
              x:Class="ScientistApp.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-    	<Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label" x:Key="Scientist">
+                <Setter Property="BackgroundColor" Value="Transparent"/>
+                <Setter Property="TextColor" Value="#252222"/>
+                <Setter Property="FontAttributes" Value="None"/>
+                <Setter Property="FontSize" Value="Small"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
 
+    <ScrollView Orientation="Vertical">
+        <StackLayout Orientation="Vertical" BackgroundColor="White">
+            <Label Text="FAMOUS SCIENTIST" BackgroundColor="#0099FF" TextColor="White" FontSize="Small" HeightRequest="30" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+
+            <!--NEWTON-->
+            <AbsoluteLayout>
+                <Label Text="Sir Isaac Newton" Style="{StaticResource Scientist}"
+                        AbsoluteLayout.LayoutBounds="3,.5,1,20" AbsoluteLayout.LayoutFlags="WidthProportional" />
+                <Image Source="./Profile/arrow.png" HorizontalOptions="End"
+                        AbsoluteLayout.LayoutBounds="1,.5,1,20" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" />
+                <AbsoluteLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnTapNewton" NumberOfTapsRequired="1" />
+                </AbsoluteLayout.GestureRecognizers>
+            </AbsoluteLayout>
+
+
+            <!--PASTEUR-->
+            <AbsoluteLayout>
+                <Label Text="Louis Pasteur" Style="{StaticResource Scientist}"
+                        AbsoluteLayout.LayoutBounds="3,1,1,20" AbsoluteLayout.LayoutFlags="WidthProportional" />
+                <Image Source="arrow.png" HorizontalOptions="End"
+                        AbsoluteLayout.LayoutBounds="1,1,1,20" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" />
+                <AbsoluteLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnTapPasteur" NumberOfTapsRequired="1" />
+                </AbsoluteLayout.GestureRecognizers>
+            </AbsoluteLayout>
+
+            <!--GALILEO-->
+            <AbsoluteLayout>
+                <Label Text="Galileo" Style="{StaticResource Scientist}"
+                        AbsoluteLayout.LayoutBounds="3,1.5,1,20" AbsoluteLayout.LayoutFlags="WidthProportional" />
+                <Image Source="arrow.png" HorizontalOptions="End"
+                        AbsoluteLayout.LayoutBounds="1,1.5,1,20" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" />
+                <AbsoluteLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnTapGalileo" NumberOfTapsRequired="1" />
+                </AbsoluteLayout.GestureRecognizers>
+            </AbsoluteLayout>
+
+            <!--MARIE CURIE-->
+            <AbsoluteLayout>
+                <Label Text="Marie Curie" Style="{StaticResource Scientist}"
+                        AbsoluteLayout.LayoutBounds="3,2,1,20" AbsoluteLayout.LayoutFlags="WidthProportional" />
+                <Image Source="arrow.png" HorizontalOptions="End"
+                        AbsoluteLayout.LayoutBounds="1,2,1,20" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" />
+                <AbsoluteLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnTapCurie" NumberOfTapsRequired="1" />
+                </AbsoluteLayout.GestureRecognizers>
+            </AbsoluteLayout>
+
+            <!--ALBERT EINSTEIN-->
+            <AbsoluteLayout>
+                <Label Text="Albert Einstein" Style="{StaticResource Scientist}"
+                        AbsoluteLayout.LayoutBounds="3,2.5,1,20" AbsoluteLayout.LayoutFlags="WidthProportional" />
+                <Image Source="arrow.png" HorizontalOptions="End"
+                        AbsoluteLayout.LayoutBounds="1,2.5,1,20" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" />
+                <AbsoluteLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnTapEinstein" NumberOfTapsRequired="1" />
+                </AbsoluteLayout.GestureRecognizers>
+            </AbsoluteLayout>
+
+            <!--CHARLES DARWIN-->
+            <AbsoluteLayout>
+                <Label Text="Charles Darwin" Style="{StaticResource Scientist}"
+                        AbsoluteLayout.LayoutBounds="3,3,1,20" AbsoluteLayout.LayoutFlags="WidthProportional" />
+                <Image Source="arrow.png" HorizontalOptions="End"
+                        AbsoluteLayout.LayoutBounds="1,2,1,20" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" />
+                <AbsoluteLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnTapDarwin" NumberOfTapsRequired="1" />
+                </AbsoluteLayout.GestureRecognizers>
+            </AbsoluteLayout>
+
+            <!--OTTO HAHN-->
+            <AbsoluteLayout>
+                <Label Text="Otto Hahn" Style="{StaticResource Scientist}"
+                        AbsoluteLayout.LayoutBounds="3,3.5,1,20" AbsoluteLayout.LayoutFlags="WidthProportional" />
+                <Image Source="arrow.png" HorizontalOptions="End"
+                        AbsoluteLayout.LayoutBounds="1,3.5,1,20" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" />
+                <AbsoluteLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnTapHahn" NumberOfTapsRequired="1" />
+                </AbsoluteLayout.GestureRecognizers>
+            </AbsoluteLayout>
+
+            <!--NIKOLA TESLA-->
+            <AbsoluteLayout>
+                <Label Text="Nikola Tesla" Style="{StaticResource Scientist}"
+                        AbsoluteLayout.LayoutBounds="3,4,1,20" AbsoluteLayout.LayoutFlags="WidthProportional" />
+                <Image Source="arrow.png" HorizontalOptions="End"
+                        AbsoluteLayout.LayoutBounds="1,4,1,20" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" />
+                <AbsoluteLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnTapTesla" NumberOfTapsRequired="1" />
+                </AbsoluteLayout.GestureRecognizers>
+            </AbsoluteLayout>
+
+            <!--JAMES CLERK MAXWELL-->
+            <AbsoluteLayout>
+                <Label Text="James Clerk Maxwell" Style="{StaticResource Scientist}"
+                        AbsoluteLayout.LayoutBounds="3,4.5,1,20" AbsoluteLayout.LayoutFlags="WidthProportional" />
+                <Image Source="arrow.png" HorizontalOptions="End"
+                        AbsoluteLayout.LayoutBounds="1,4.5,1,20" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" />
+                <AbsoluteLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnTapMaxwell" NumberOfTapsRequired="1" />
+                </AbsoluteLayout.GestureRecognizers>
+            </AbsoluteLayout>
+
+            <!--ARISTOTLE-->
+            <AbsoluteLayout>
+                <Label Text="Aristotle" Style="{StaticResource Scientist}"
+                        AbsoluteLayout.LayoutBounds="3,5,1,20" AbsoluteLayout.LayoutFlags="WidthProportional" />
+                <Image Source="arrow.png" HorizontalOptions="End"
+                        AbsoluteLayout.LayoutBounds="1,5,1,20" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" />
+                <AbsoluteLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnTapAristotle" NumberOfTapsRequired="1" />
+                </AbsoluteLayout.GestureRecognizers>
+            </AbsoluteLayout>
+        </StackLayout>
+    </ScrollView>
+    
 </ContentPage>
