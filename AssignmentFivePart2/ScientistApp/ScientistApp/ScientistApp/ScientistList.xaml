@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ScientistApp.ScientistList">
+    
+    <!--<ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label" x:Key="Scientist">
+                <Setter Property="BackgroundColor" Value="Transparent"/>
+                <Setter Property="TextColor" Value="#252222"/>
+                <Setter Property="FontAttributes" Value="None"/>
+                <Setter Property="FontSize" Value="Small"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>-->
+
+    <StackLayout Orientation="Vertical" BackgroundColor="White">
+        <Label Text="FAMOUS SCIENTIST" BackgroundColor="#0099FF" TextColor="White" FontSize="Small" HeightRequest="30" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+
+        <!--<local:ScientistList/>-->
+
+        <AbsoluteLayout>
+            <Label Text="Sir Isaac Newton" Style="{StaticResource Scientist}"
+                AbsoluteLayout.LayoutBounds="3,.5,1,20" AbsoluteLayout.LayoutFlags="WidthProportional" />
+            <Image Source="arrow.png" HorizontalOptions="End"
+                AbsoluteLayout.LayoutBounds="1,.5,1,20" AbsoluteLayout.LayoutFlags="XProportional,WidthProportional" />
+            <AbsoluteLayout.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnTapNewton" NumberOfTapsRequired="1" />
+            </AbsoluteLayout.GestureRecognizers>
+        </AbsoluteLayout>
+
+    </StackLayout>
+       
+</ContentView>

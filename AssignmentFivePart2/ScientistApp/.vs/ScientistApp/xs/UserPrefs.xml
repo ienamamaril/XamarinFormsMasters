@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{9A3EDBBE-D812-4FB6-B143-DE30804EDEEA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ScientistApp/ScientistApp/DetailsPage.xaml">
+    <Files>
+      <File FileName="ScientistApp/ScientistApp/MainPage.xaml" Line="10" Column="72" />
+      <File FileName="ScientistApp/ScientistApp/MainPage.xaml.cs" Line="29" Column="43" />
+      <File FileName="ScientistApp/ScientistApp/DetailsPage.xaml" Line="6" Column="22" />
+      <File FileName="ScientistApp/ScientistApp/DetailsPage.xaml.cs" Line="19" Column="1" />
+      <File FileName="ScientistApp/ScientistApp/Information.cs" Line="4" Column="18" />
+      <File FileName="ScientistApp/ScientistApp/App.xaml.cs" Line="14" Column="56" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ScientistApp.Android PreferredExecutionTarget="Android.my_device" />
+  <MultiItemStartupConfigurations />
+</Properties>
