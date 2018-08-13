@@ -1,0 +1,12 @@
+C:\Users\sienam\XamarinForms\FinalProject\ContactManagerApp\ContactManagerApp\ContactManagerApp\bin\Debug\netstandard2.0\ContactManagerApp.deps.json
+C:\Users\sienam\XamarinForms\FinalProject\ContactManagerApp\ContactManagerApp\ContactManagerApp\bin\Debug\netstandard2.0\ContactManagerApp.dll
+C:\Users\sienam\XamarinForms\FinalProject\ContactManagerApp\ContactManagerApp\ContactManagerApp\bin\Debug\netstandard2.0\ContactManagerApp.pdb
+C:\Users\sienam\XamarinForms\FinalProject\ContactManagerApp\ContactManagerApp\ContactManagerApp\obj\Debug\netstandard2.0\ContactManagerApp.csprojAssemblyReference.cache
+C:\Users\sienam\XamarinForms\FinalProject\ContactManagerApp\ContactManagerApp\ContactManagerApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\sienam\XamarinForms\FinalProject\ContactManagerApp\ContactManagerApp\ContactManagerApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\sienam\XamarinForms\FinalProject\ContactManagerApp\ContactManagerApp\ContactManagerApp\obj\Debug\netstandard2.0\ContactManagerApp.csproj.CoreCompileInputs.cache
+C:\Users\sienam\XamarinForms\FinalProject\ContactManagerApp\ContactManagerApp\ContactManagerApp\obj\Debug\netstandard2.0\ContactManagerApp.AssemblyInfoInputs.cache
+C:\Users\sienam\XamarinForms\FinalProject\ContactManagerApp\ContactManagerApp\ContactManagerApp\obj\Debug\netstandard2.0\ContactManagerApp.AssemblyInfo.cs
+C:\Users\sienam\XamarinForms\FinalProject\ContactManagerApp\ContactManagerApp\ContactManagerApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\sienam\XamarinForms\FinalProject\ContactManagerApp\ContactManagerApp\ContactManagerApp\obj\Debug\netstandard2.0\ContactManagerApp.dll
+C:\Users\sienam\XamarinForms\FinalProject\ContactManagerApp\ContactManagerApp\ContactManagerApp\obj\Debug\netstandard2.0\ContactManagerApp.pdb

@@ -2,13 +2,36 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:ContactManagerApp"
-             x:Class="ContactManagerApp.MainPage">
+             x:Class="ContactManagerApp.MainPage"
+             NavigationPage.HasNavigationBar="False">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-    	<Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
-
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label" x:Key="LoadingStatus">
+                <Setter Property="TextColor" Value="#FFFFFF"/>
+                <Setter Property="FontSize" Value="Small"/>
+                <Setter Property="Margin" Value="0,100,0,0"/>
+                <Setter Property="VerticalOptions" Value="Start"/>
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+            </Style>
+            <Style TargetType="Button" x:Key="ProceedButton">
+                <Setter Property="BackgroundColor" Value="#FF0000"/>
+                <Setter Property="TextColor" Value="#FFFFFF"/>
+                <Setter Property="FontSize" Value="Small"/>
+                <Setter Property="WidthRequest" Value="150"/>
+                <Setter Property="HeightRequest" Value="38"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#4949FB" Padding="20">
+            <Image Source="call_me_maybe.png" Margin="0,30,10,0"/>
+            <Label Text="An error occured while downloading your contacts" Style="{StaticResource LoadingStatus}"/>
+            <Button Text="PROCEED" Style="{StaticResource ProceedButton}"/>
+            <Label Text="developed by AYNA" TextColor="#FFFFFF" FontSize="Micro" HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+    
 </ContentPage>
